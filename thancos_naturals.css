@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+}
+.top-section{
+    background-image: url("./Images/Banner.jpg");
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+.header-container{
+    background-color: #666;
+    height: 90px;
+    opacity: .2;
+}
+.header-inner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 850px;
+    margin-left: 200px;
+    height: 80px;
+}
+.header-options{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.top-lower-section-container{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    background-image: url("./Images/Thancos-Web-bg.jpg");
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-position: center ;
+    
+}
+.top-lower-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+    font-family: 'Satisfy', cursive;
+}
+.top-lower-section-left{
+    width: 300px;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    line-height: 2;
+    margin-top: 60px;
+}
+.top-lower-section-right{
+    width: 300px;
+    color: white;
+    font-weight: 500;
+    line-height: 2;
+    font-size: large;
+    margin-top: 100px;
+}
+.top-lower-section-heading{
+    display: flex;
+    justify-content: center;
+    color: #a50018;
+    height: 50px;
+
+}   
+.top-lower-section-content{
+}
+.top-lower-section-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5px;
+}
